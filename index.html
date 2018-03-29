@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="manifest.json" rel="manifest">
+    <style>
+        .active {
+            color: white;
+            font-weight: 500;
+            font-family: cursive
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+
+            </ul>
+            <!-- Links -->
+
+            <form class="form-inline">
+                <div class="md-form mt-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                </div>
+            </form>
+        </div>
+        <!-- Collapsible content -->
+
+    </nav>
+    <!--/.Navbar-->
+    <div class="container-fluid">
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./img/images.jpg" alt="First slide">
+            </div>
+            <!--/First slide-->
+            <!--Second slide-->
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/minion.jpg" alt="Second slide">
+            </div>
+            <!--/Second slide-->
+            <!--Third slide-->
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/rcb.jpg" alt="Third slide">
+            </div>
+            <!--/Third slide-->
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+
+            </div>
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    <!--Card group-->
+    <div class="card-group">
+
+        <!--Card-->
+        <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="img-fluid" src="./img/tweety.jpg" alt="Card image cap">
+                <a href="https://www.google.co.in/search?q=tweety+videos&source=lnms&tbm=vid&sa=X&ved=0ahUKEwj6p5nr2o7aAhVGT7wKHaugBOUQ_AUICigB&biw=1024&bih=613">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+            <!--Card image-->
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title">Tweety</h4>
+
+                <!--Text-->
+                <p class="card-text">Tweety (short for Tweety Pie) is an animated fictional yellow canary in the Warner Bros. Looney Tunes and
+                    Merrie Melodies series of animated cartoons. The name "Tweety" is a play on words, as it originally meant
+                    "sweetie", along with "tweet" being a typical English onomatopoeia for the sounds of birds. His characteristics
+                    ... .
+                </p>
+
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <button type="button" class="btn btn-primary btn-md">Read more</button>
+            </div>
+            <!--Card content-->
+
+        </div>
+        <!--Card-->
+
+        <!--Card-->
+        <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="img-fluid" src="./img/doremon.jpg" alt="Card image cap">
+                <a href="https://www.google.co.in/search?biw=1024&bih=613&tbm=vid&ei=DGG7Ws3mMcbS8QW6loeIAg&q=doremonvideos&oq=doremonvideos&gs_l=psy-ab.3..0i10k1l10.137273.138984.0.183635.7.7.0.0.0.0.188.968.0j6.6.0....0...1c.1.64.psy-ab..1.4.666...0j0i7i30k1j0i7i10i30k1.0.Eqt_0yh3ZUY">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+            <!--Card image-->
+
+            <!--Card content-->
+            <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">Doremon</h4>
+
+                <!--Text-->
+                <p class="card-text">Doraemon is a Japanese manga series written and illustrated by Fujiko F. Fujio. The series has also been
+                    adapted into a successful anime series and media franchise.</p>
+
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <button type="button" class="btn btn-primary btn-md">Read more</button>
+            </div>
+            <!--Card content-->
+
+        </div>
+        <!--Card-->
+
+        <!--Card-->
+        <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="img-fluid" src="./img/shin.jpg" alt="Card image cap">
+                <a href="https://www.google.co.in/search?biw=1024&bih=613&tbm=vid&ei=pmG7WtOrLoqx8wWZtJiwCg&q=shinchan+videos&oq=shinchan+videos&gs_l=psy-ab.3..0i131k1j0l9.2529.5768.0.6070.10.10.0.0.0.0.173.1548.0j10.10.0....0...1c.1.64.psy-ab..0.10.1540...0i7i30k1j0i7i10i30k1j0i13k1j0i10k1.0.KwQ_4Y-cZ1M">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+            <!--Card image-->
+
+            <!--Card content-->
+            <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">Shinchan</h4>
+
+                <!--Text-->
+                <p class="card-text">Crayon Shin-chan, also known as Shin Chan, is a Japanese manga series written and illustrated by Yoshito
+                    Usui.</p>
+
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <button type="button" class="btn btn-primary btn-md">Read more</button>
+            </div>
+            <!--Card content-->
+
+        </div>
+        <!--Card-->
+
+    </div>
+    <!--Card group-->
+    <div class="row">
+        <ul class="nav md-pills nav-justified pills-secondary  pink accent-2">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#panel4" role="tab">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#panel11" role="tab">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#panel12" role="tab">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#panel13" role="tab">Help</a>
+            </li>
+        </ul>
+
+        <!-- Tab panels -->
+        <div class="tab-content">
+
+            <!--Panel 1-->
+            <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
+                <br>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis
+                    molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate
+                    odit minima.</p>
+
+            </div>
+            <!--/.Panel 1-->
+
+            <!--Panel 2-->
+            <div class="tab-pane fade" id="panel12" role="tabpanel">
+                <br>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis
+                    molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate
+                    odit minima.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis
+                    molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate
+                    odit minima.</p>
+
+            </div>
+            <!--/.Panel 2-->
+
+            <!--Panel 3-->
+            <div class="tab-pane fade" id="panel13" role="tabpanel">
+                <br>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis
+                    molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate
+                    odit minima.</p>
+
+            </div>
+            <!--/.Panel 3-->
+
+            <!--Panel 4-->
+            <div class="tab-pane fade" id="panel14" role="tabpanel">
+                <br>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis
+                    molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate
+                    odit minima.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis
+                    molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate
+                    odit minima.</p>
+
+            </div>
+            <!--/.Panel 4-->
+
+        </div>
+
+    </div>
+<div class="row">
+
+<!-- Material form subscription -->
+<form>
+        <p class="h4 text-center mb-4">Subscribe</p>
+    
+        <!-- Material input text -->
+        <div class="md-form">
+            <i class="fa fa-user prefix grey-text"></i>
+            <input type="text" id="materialFormSubscriptionNameEx" class="form-control">
+            <label for="materialFormSubscriptionNameEx">Your name</label>
+        </div>
+    
+        <!-- Material input email -->
+        <div class="md-form">
+            <i class="fa fa-envelope prefix grey-text"></i>
+            <input type="email" id="materialFormSubscriptionEmailEx" class="form-control">
+            <label for="materialFormSubscriptionEmailEx">Your email</label>
+        </div>
+    
+        <div class="text-center mt-4">
+            <button class="btn btn-outline-info" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
+        </div>
+    </form>
+    <!-- Material form subscription -->
+                              
+    <div class="col -4">
+<!-- Material form login -->
+<form>
+        <p class="h4 text-center mb-4">Sign in</p>
+    
+        <!-- Material input email -->
+        <div class="md-form">
+            <i class="fa fa-envelope prefix grey-text"></i>
+            <input type="email" id="materialFormLoginEmailEx" class="form-control">
+            <label for="materialFormLoginEmailEx">Your email</label>
+        </div>
+    
+        <!-- Material input password -->
+        <div class="md-form">
+            <i class="fa fa-lock prefix grey-text"></i>
+            <input type="password" id="materialFormLoginPasswordEx" class="form-control">
+            <label for="materialFormLoginPasswordEx">Your password</label>
+        </div>
+    
+        <div class="text-center mt-4">
+            <button class="btn btn-default" type="submit">Login</button>
+        </div>
+    </form>
+    <!-- Material form login -->
+                          
+    </div>
+</div>
+    <!-- Material form register -->
+                          
+        </div>
+        
+        <!--Footer-->
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+        <!--Footer Links-->
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+    
+                <!--First column-->
+                <div class="col-md-6">
+                    <h5 class="text-uppercase">Footer Content</h5>
+                    <p>Here you can use rows and columns here to organize your footer content.</p>
+                </div>
+                <!--/.First column-->
+    
+                <!--Second column-->
+                <div class="col-md-6">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+    
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center">
+            © 2018 Copyright:
+            <a href="https://mdbootstrap.com/material-design-for-bootstrap/"> MDBootstrap.com </a>
+        </div>
+        <!--/.Copyright-->
+    
+    </footer>
+    <!--/.Footer-->
+    
+</div>
+</div>
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script src="./main.js"></script>   
+</body>
+
+</html>
